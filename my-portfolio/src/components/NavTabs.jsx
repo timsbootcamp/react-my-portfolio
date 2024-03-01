@@ -10,7 +10,7 @@ function NavTabs() {
           to="/"
           end
           className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link testclass' 
+            isActive ? 'nav-link active' : 'nav-link hover-nav' 
           }
         >
           Home
@@ -20,7 +20,7 @@ function NavTabs() {
         <NavLink
           to="projects"
           className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link testclass'
+            isActive ? 'nav-link active' : 'nav-link hover-nav'
           }
         >
           Projects
@@ -41,7 +41,7 @@ function NavTabs() {
           to="contact"
           end
           className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link testclass'
+            isActive ? 'nav-link active' : 'nav-link hover-nav'
           }
         >
           Contact
