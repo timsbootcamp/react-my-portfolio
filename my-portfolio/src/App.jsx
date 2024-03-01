@@ -5,10 +5,13 @@ import NavTabs from './components/NavTabs';
 import Home from './components/pages/Home';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
+import Header from './components/Header';
 
 function App() {
   return (
     <Router>
+      <Header />
+
       <NavTabs />
       {/* Wrap Route elements in a Routes component */}
       <Routes>

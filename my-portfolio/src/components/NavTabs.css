@@ -1,8 +1,8 @@
-.testclass {
+.hover-nav {
     color: darkblue;
 }
 
-.testclass:hover {
+.hover-nav:hover {
     color: mediumturquoise;
 }
 
