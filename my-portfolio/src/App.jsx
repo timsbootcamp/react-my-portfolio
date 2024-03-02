@@ -4,7 +4,7 @@ import NavTabs from "./components/NavTabs";
 
 import Home from "./components/pages/Home";
 import Projects from "./components/pages/Projects";
-import ProjectDetails from "../src/components/ProjectDetails"
+import ProjectDetails from "./components/pages/ProjectDetails"
 import Contact from "./components/pages/Contact";
 import Header from "./components/Header";
 import Footer from "./components/Footer";

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import projectData from '../../data/projects.json';
 
+
 const Projects = () => {
   return (
     <div className="container project-gallery">
@@ -14,7 +15,8 @@ const Projects = () => {
           <div key={project.id} className="col mb-4">
             <Link to={`/projects/${project.id}`}>
               <div className="card h-100 border-0">
-                <img src={project.image} alt={project.title} className="card-img-top" />
+              <img src={project.image} alt={project.title} className="card-img-top" />
+
                 <div className="card-body">
                   <h3 className="card-title">{project.title}</h3>
                 </div>
