@@ -3,7 +3,7 @@
     "id": "0",
     "title": "Analyse Financial Records",
     "description": "Challenge 4 of edX Boot Camp (Front End) to create Javascript code for analyzing the financial records of a company.",
-    "image": "src/assets/images/01.jpg",
+    "image": "../src/assets/images/01.jpg",
     "githubUrl": "https://github.com/timsbootcamp/Console-Finances",
     "deployedUrl": "https://timsbootcamp.github.io/Console-Finances/"
   },
@@ -11,7 +11,7 @@
       "id": "1",
       "title": "Password Generator",
       "description": "Challenge 5 of edX Boot Camp (Front End) to create Javascript Password Generator.",
-      "image": "src/assets/images/passwordgenerator.jpg",
+      "image": "../src/assets/images/passwordgenerator.jpg",
       "githubUrl": "https://github.com/timsbootcamp/js-password-generator",
       "deployedUrl": "https://timsbootcamp.github.io/js-password-generator/"
     },
@@ -19,7 +19,7 @@
     "id": "2",
     "title": "Coding Quiz",
     "description": "Challenge 6 of edX Boot Camp (Front End) to create Code Quiz using Web API.",
-    "image": "src/assets/images/coding-quiz.jpg",
+    "image": "../src/assets/images/coding-quiz.jpg",
     "githubUrl": "https://github.com/timsbootcamp/webapi-code-quiz",
     "deployedUrl": "https://timsbootcamp.github.io/webapi-code-quiz/"
   },
@@ -27,7 +27,7 @@
     "id": "3",
     "title": "Work Day scheduler",
     "description": "Challenge 7 of edX Boot Camp (Front End) to create a simple calendar application.",
-    "image": "src/assets/images/work-day-scheduler.jpg",
+    "image": "../src/assets/images/work-day-scheduler.jpg",
     "githubUrl": "https://github.com/timsbootcamp/third-party-api-work-day-scheduler",
     "deployedUrl": "https://timsbootcamp.github.io/third-party-api-work-day-scheduler/"
   },
@@ -35,7 +35,7 @@
     "id": "4",
     "title": "Weather Dashboard",
     "description": "Challenge 8 of edX Boot Camp (Front End) to create a Weather Dashboard.",
-    "image": "src/assets/images/weather-dashboard.jpg",
+    "image": "../src/assets/images/weather-dashboard.jpg",
     "githubUrl": "https://github.com/timsbootcamp/server-side-api-weather-dashboard",
     "deployedUrl": "https://timsbootcamp.github.io/server-side-api-weather-dashboard/"
   },
@@ -43,7 +43,7 @@
     "id": "5",
     "title": "Meow Finder - Group Project",
     "description": "Project 1 of edX Boot Camp (Front End) course to create an Interactive Front-End Application.",
-    "image": "src/assets/images/meow-finder.jpg",
+    "image": "../src/assets/images/meow-finder.jpg",
     "githubUrl": "https://github.com/timsbootcamp/meow-finder",
     "deployedUrl": "https://timsbootcamp.github.io/meow-finder/"
   } 
