@@ -42,7 +42,7 @@ function ContactForm() {
         <div className="col-md-6">
           <h3>About Me</h3>
           <p>
-          Feel free to contact me using the form below.</p> 
+          Feel free to contact me using the form below or directly at my email address: 'timanand@gmail.com'.</p> 
           
           <p>Whether you have questions about my services, 
           want to discuss a project, or just want to say hi, I'm here to help. Your message matters, 
