@@ -76,15 +76,15 @@ button:focus-visible {
 }
 
 
-/* myphoto {
-  padding-left: 0px;
-  padding-right: 0px;
-  margin: 0px;
-} */
-
 h3, p {
   padding: 10px;
 
 }
 
+.short-input {
+  width: 700px; /* Adjust the width as needed */
+}
 
+.contactform {
+  padding: 20px;
+}
