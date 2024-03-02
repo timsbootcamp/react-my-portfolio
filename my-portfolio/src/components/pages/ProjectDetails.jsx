@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import projectsData from '../data/projects.json';
+import projectsData from '../../data/projects.json';
 
 function ProjectDetails() {
 
@@ -15,6 +15,7 @@ function ProjectDetails() {
     <div>
       <h3>{project.title}</h3>
       <p>{project.description}</p>
+
       <img className="product-detail-image" src={project.image} alt={project.title} />
       <p>
         GitHub URL: <a href={project.githubUrl}>{project.githubUrl}</a>
