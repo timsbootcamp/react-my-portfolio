@@ -4,6 +4,7 @@ import NavTabs from "./components/NavTabs";
 
 import Home from "./components/pages/Home";
 import Projects from "./components/pages/Projects";
+import ProjectDetails from "../src/components/ProjectDetails"
 import Contact from "./components/pages/Contact";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -21,6 +22,7 @@ function App() {
         {/* Define a default route that will render the Home component */}
         <Route path="/" element={<Home />} />
         <Route path="projects" element={<Projects />} />
+        <Route path="projects/:id" element={<ProjectDetails />} />
         {/* Define a route that will have descendant routes */}
         <Route path="contact/*" element={<Contact />} />
       </Routes>

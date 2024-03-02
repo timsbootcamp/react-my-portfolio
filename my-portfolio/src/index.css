@@ -92,3 +92,8 @@ h3, p {
 .contact-info {
   margin-bottom: 10px; /* Adjust as needed */
 }
+
+
+.product-detail-image {
+  padding: 10px;
+}
