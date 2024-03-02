@@ -88,3 +88,7 @@ h3, p {
 .contactform {
   padding: 20px;
 }
+
+.contact-info {
+  margin-bottom: 10px; /* Adjust as needed */
+}
