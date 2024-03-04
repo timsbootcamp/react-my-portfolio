@@ -5,7 +5,7 @@ import imagePhone from "../../assets/images/smartphone_488.png";
 import imageEmail from "../../assets/images/email_4546924.png";
 import imageLinkedIn from "../../assets/images/linkedin_2504923.png";
 import imageGitHub from "../../assets/images/github_733609.png";
-import myCV from "../../data/2024_03_04_Arvinder_Anand_(Arvi).pdf";
+import myCV from "../../data/2024_03_04_Arvinder_Anand_Arvi.pdf";
 
 
 function ContactForm() {
