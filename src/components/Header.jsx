@@ -1,11 +1,15 @@
+// Header Component
+
 import React from 'react';
+import BrandStatement from "./BrandStatement";
+
 
 const Header = () => {
   return (
     <header>
       <div className="hero">
         <h2>Arvi's Portfolio</h2>
-        <p>Creating captivating websites with creative design and clean code!</p>
+        <BrandStatement />
       </div>
     </header>
   );

@@ -1,3 +1,5 @@
+// Contact Component
+
 import React, { useState } from "react";
 import imagePhone from "../../assets/images/smartphone_488.png";
 import imageEmail from "../../assets/images/email_4546924.png";
@@ -38,6 +40,8 @@ function ContactForm() {
   return (
     <div className="container-fluid">
       <div className="row">
+
+        {/* Contact page - left side - BEGIN */}
         <div className="col-md-6">
           <h3>About Me</h3>
           <p>
@@ -87,8 +91,10 @@ function ContactForm() {
           </div>
 
         </div>
+        {/* Contact page - left side - END */}
 
         
+        {/* Contact page - right side - BEGIN */}
         <div className="col-md-6">
 
           <form onSubmit={handleSubmit} className="contactform">
@@ -134,12 +140,13 @@ function ContactForm() {
                   required
                 ></textarea>
               </div>
-              <button type="submit" className="btn btn-primary button-z">
+              <button type="submit" className="btn btn-primary button">
                 Submit
               </button>
             </div>
           </form>
         </div>
+        {/* Contact page - right side - END */}
 
       </div>
     </div>

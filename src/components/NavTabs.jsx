@@ -1,3 +1,5 @@
+// NavTabs Component
+
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './NavTabs.css'
@@ -26,16 +28,6 @@ function NavTabs() {
           Projects
         </NavLink>
       </li>
-      {/* <li className="nav-item">
-        <NavLink
-          to="blog"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link testclass'
-          }
-        >
-          Blog
-        </NavLink>
-      </li> */}
       <li className="nav-item">
         <NavLink
           to="contact"
