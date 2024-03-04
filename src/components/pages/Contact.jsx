@@ -5,6 +5,7 @@ import imagePhone from "../../assets/images/smartphone_488.png";
 import imageEmail from "../../assets/images/email_4546924.png";
 import imageLinkedIn from "../../assets/images/linkedin_2504923.png";
 import imageGitHub from "../../assets/images/github_733609.png";
+import myCV from "../../data/2024_03_04_Arvinder_Anand_(Arvi).pdf";
 
 
 function ContactForm() {
@@ -89,6 +90,10 @@ function ContactForm() {
             </a>
             <a href="https://github.com/timsbootcamp"></a>
           </div>
+
+          <a href={myCV} target="_blank" rel="noopener noreferrer">
+           BBC
+          </a>
 
         </div>
         {/* Contact page - left side - END */}
