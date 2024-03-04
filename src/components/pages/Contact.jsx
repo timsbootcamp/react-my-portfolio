@@ -69,23 +69,26 @@ function ContactForm() {
             <a href="mailto:timanand@gmail.com">
               <img src={imageEmail} alt="Email icon" height="30" width="30"/>
             </a>
-            <a href="mailto:timanand@gmail.com">&nbsp;&nbsp;timanand@gmail.com</a>
+            &nbsp;&nbsp;
+            <a href="mailto:timanand@gmail.com">timanand@gmail.com</a>
           </div>
 
           <div className="contact-info">
             <a href="https://www.linkedin.com/in/arvinder-anand-6913071ab">
               <img src={imageLinkedIn} alt="Linked In icon" height="30" width="30"/>
             </a>
-            <a href="https://www.linkedin.com/in/arvinder-anand-6913071ab">&nbsp;&nbsp;Linked In</a>
-          </div>
+            <a href="https://www.linkedin.com/in/arvinder-anand-6913071ab"></a>
+            &nbsp;&nbsp;&nbsp;
 
-          <div className="contact-info">
             <a href="https://github.com/timsbootcamp">
               <img src={imageGitHub} alt="Git Hub icon" height="30" width="30"/>
             </a>
-            <a href="https://github.com/timsbootcamp">&nbsp;GitHub: timsbootcamp</a>
+            <a href="https://github.com/timsbootcamp"></a>
           </div>
+
         </div>
+
+        
         <div className="col-md-6">
 
           <form onSubmit={handleSubmit} className="contactform">
@@ -131,7 +134,7 @@ function ContactForm() {
                   required
                 ></textarea>
               </div>
-              <button type="submit" className="btn btn-primary">
+              <button type="submit" className="btn btn-primary button-z">
                 Submit
               </button>
             </div>
