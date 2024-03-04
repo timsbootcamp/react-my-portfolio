@@ -2,29 +2,28 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 
-  /* Background Colors */
+  /* Colours */
   --background-color: #E9F1FA; 
-
-  /* Text Colors */
   --text-color: #1C3156;
+  --primary-color: #00ABE4;
 }
 
 
+/* Body - BEGIN */
 body {
   background-color: var(--background-color);
   color: var(--text-color);;
   font-family: Arial, sans-serif;
 }
+/* Body - END */
 
 
+/* Headings - BEGIN */
 h2 {
   color: white;
-  background-color: #00ABE4;
+  background-color: var(--primary-color);
 }
-
-
 
 
 h3, p {
@@ -35,56 +34,8 @@ h5 {
   font-weight: bolder;
 }
 
+/* Headings - END */
 
-
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-/* .card {
-  padding: 30px;
-  margin-bottom: 100px;
-} */
-
-.more-space {
-  padding: 45px;
-}
-
-
-
-.read-the-docs {
-  color: #888;
-}
-
-
-.foot {
-  text-align: center;
-}
 
 
 
@@ -100,9 +51,11 @@ h5 {
 }
 
 
+/* Contact Form - BEGIN */
 
+/* Contact form fields length */
 .short-input {
-  width: 550px; /* Adjust the width as needed */
+  width: 550px; 
 }
 
 .contactform {
@@ -113,29 +66,50 @@ h5 {
   margin-bottom: 10px; /* Adjust as needed */
 }
 
+/* Contact Form - END */
 
+
+
+/* Product Details - BEGIN */
 .product-detail-image {
   padding: 10px;
-  width: 400px; /* Set the width */
-  height: auto; /* Maintain aspect ratio */
+  width: 400px; 
+  height: auto; 
 }
+/* Product Details - END */
 
 
-.bold {
-  font-weight: bold;
-}
 
-
+/* Buttons - BEGIN */
 .button {
-  background-color: #00ABE4;
+  background-color: var(--primary-color);
 }
 
 .button:hover {
-  background-color: #1C3156;
+  background-color: var(--text-color);
 }
+/* Buttons - END */
 
 
 
+/* Projects - BEGIN */
 .card-title {
-  color: #00ABE4;
+  color: var(--primary-color);
 }
+
+
+.more-space {
+  padding: 45px;
+}
+/* Projects - END */
+
+
+
+/* Footer - BEGIN */
+.foot {
+  text-align: center;
+}
+/* Footer - END */
+
+
+

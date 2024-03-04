@@ -1,21 +1,13 @@
-.nav {
-    /* background-color: green;
-    color: #FFFFFF; White */
-    color: red;
-    padding: 10px 0;
+/* Navbar CSS */
+
+.nav a {
+    color: var(--text-color); 
+    text-decoration: none;
+    padding: 0 15px;
 }
 
 
-/* Navbar Links */
-.nav a {
-    color: #1C3156; 
-    text-decoration: none;
-    padding: 0 15px;
-  }
-
-
-
 .hover-nav:hover {
-    background-color: #00ABE4; 
+    background-color: var(--primary-color); 
     color: #FFFFFF; /* White */
 }
