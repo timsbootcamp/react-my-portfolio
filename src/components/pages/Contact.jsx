@@ -44,7 +44,7 @@ function ContactForm() {
 
         {/* Contact page - left side - BEGIN */}
         <div className="col-md-6">
-          <h3>About Me</h3>
+          <h3>Contact Me</h3>
           <p>
             Feel free to contact me using the form below or directly at my email
             address: 'timanand@gmail.com'.
