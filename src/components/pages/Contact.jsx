@@ -57,7 +57,8 @@ function ContactForm() {
             I'll get back to you soon.
           </p>
           <p>Thanks for reaching out!</p>
-
+          <p><i>Arvinder Anand (Arvi)</i></p>
+          <br/>
           <div className="contact-info">
             <img
               src={imagePhone}
