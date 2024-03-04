@@ -92,7 +92,7 @@ function ContactForm() {
           </div>
 
           <a href={myCV} target="_blank" rel="noopener noreferrer">
-           Link to my latest CV
+           Link to my latest CV dated 4th March 2024
           </a>
 
         </div>
