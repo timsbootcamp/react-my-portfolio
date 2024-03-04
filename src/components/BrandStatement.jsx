@@ -1,6 +1,5 @@
 // Brand Statement Component
 
-
 import React from 'react';
 
 const BrandStatement = () => {

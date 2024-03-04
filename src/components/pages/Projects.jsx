@@ -1,6 +1,5 @@
 // Projects Component
 
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import projectData from '../../data/projects.json';

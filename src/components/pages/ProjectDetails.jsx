@@ -1,6 +1,5 @@
 // Project Details Component
 
-
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import projectsData from '../../data/projects.json';

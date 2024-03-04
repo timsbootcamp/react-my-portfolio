@@ -9,8 +9,7 @@ const Header = () => {
     <header>
       <div className="hero">
         <h2>Arvi's Portfolio</h2>
-        <BrandStatement/>
-
+        <BrandStatement />
       </div>
     </header>
   );
