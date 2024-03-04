@@ -134,7 +134,7 @@ function ContactForm() {
                   required
                 ></textarea>
               </div>
-              <button type="submit" className="btn btn-primary button-z">
+              <button type="submit" className="btn btn-primary button">
                 Submit
               </button>
             </div>
