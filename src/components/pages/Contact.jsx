@@ -5,7 +5,7 @@ import imagePhone from "../../assets/images/smartphone_488.png";
 import imageEmail from "../../assets/images/email_4546924.png";
 import imageLinkedIn from "../../assets/images/linkedin_2504923.png";
 import imageGitHub from "../../assets/images/github_733609.png";
-import myCV from "../../data/2024_03_04_Arvinder_Anand_(Arvi).pdf";
+import myCV from "../../data/2024_03_05_Arvinder_Anand_(Arvi).pdf";
 
 
 function ContactForm() {
@@ -93,7 +93,7 @@ function ContactForm() {
           </div>
 
           <a href={myCV} target="_blank" rel="noopener noreferrer">
-           Link to my latest CV dated 4th March 2024
+           Link to my latest CV dated 5th March 2024
           </a>
 
         </div>
