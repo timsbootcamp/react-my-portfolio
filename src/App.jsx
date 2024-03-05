@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
+import { HashRouter } from 'react-router-dom';
 
 import Home from "./components/pages/Home";
 import Projects from "./components/pages/Projects";
@@ -15,7 +16,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Header />
       <NavTabs />
       {/* Wrap Route elements in a Routes component */}
@@ -30,7 +31,7 @@ function App() {
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
-    </Router>
+    </HashRouter>
   );
 }
 
